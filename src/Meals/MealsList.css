@@ -1,5 +1,5 @@
  .list-container{
-    width:600px;
+    width:700px;
     background-color: white;
     margin-top:400px;
     overflow: auto;
@@ -11,6 +11,8 @@
 
  li{
     margin:5px 0;
+    display: flex;
+    justify-content: space-between;
  }
 
  .mealname{
@@ -28,4 +30,28 @@
 .mealprice{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:darkred;
+}
+
+.amount-heading{
+    color:rgb(124, 18, 18);
+}
+
+.count-container{
+    width:40px;
+    height:20px;
+    border: 1px solid black;
+    margin-left:10px;
+    margin-top:10px;
+    border-radius: 4px;
+}
+
+.add-btn{
+    padding:6px;
+    background-color:rgb(61, 149, 61);
+    color:white;
+    border-radius: 5px;
+}
+
+.amount-div{
+    display: flex;
 }

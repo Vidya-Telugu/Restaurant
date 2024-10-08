@@ -12,11 +12,20 @@ function MealsList() {
             {
                 meals.map((meal,index)=>(
                     <li key={index}>
+                        <div>
                         <h4 className='mealname'>{meal.name}</h4>
                         <p className='mealdesc'>{meal.desc}</p>
                         <p className='mealprice'><b>{meal.price}</b></p>
-                        <hr></hr>
+                        </div>
+                        <div className='form-container'>
+                                <div className='amount-div'>
+                                <h4 className='amount-heading'>Amount</h4>
+                                <div className='count-container'>1</div>
+                                </div>
+                            <button className='add-btn'>+Add</button>
+                        </div>
                     </li>
+            
                 ))
             }
         </ul>
