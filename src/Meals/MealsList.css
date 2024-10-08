@@ -1,0 +1,31 @@
+ .list-container{
+    width:600px;
+    background-color: white;
+    margin-top:400px;
+    overflow: auto;
+    padding-left:30px;
+    padding-right:30px;
+    text-align: left;
+    border-radius:15px;
+ }
+
+ li{
+    margin:5px 0;
+ }
+
+ .mealname{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:black;
+ }
+
+ .mealdesc{
+    font-style: italic;
+    font-weight: 100;
+    color:gray;
+ }
+
+.mealprice{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:darkred;
+}

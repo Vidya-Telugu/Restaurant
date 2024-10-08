@@ -2,7 +2,6 @@
     margin:0px;
     padding: 0px;
     box-sizing: border-box;
-    overflow: hidden;
 }
 .container{
     background-image: url("../assets/imageforheader.jpg");
@@ -35,7 +34,7 @@
 .card-desc{
     width:40%;
     height:150px;
-    background-color: rgb(28, 24, 24);
+    background-color: rgb(0, 0, 0);
     margin-top:210px;
     border-radius:15px;
     padding:10px;
